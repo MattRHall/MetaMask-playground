@@ -12,30 +12,8 @@ The project is organized into two main directories:
 
 1. **`blockchain`**: 
    - This directory is used for developing, testing, and deploying blockchain contracts. It is also where your ABIs are generated.
-   - Run the following command to initialize a new Node.js project:
-     ```bash
-     npm init
-     ```
-   - Install the necessary packages:
-     ```bash
-     npm install --save-dev hardhat typechain ethers @typechain/ethers-v6
-     ```
-   - Create a new HardHat project:
-     ```bash
-     npx hardhat init
-     ```
-
 2. **`frontend`**: 
    - This directory is used for front-end development and testing.
-   - Run the following command to initialize a new Node.js project:
-     ```bash
-     npm init
-     ```
-   - Install the necessary packages:
-     ```bash
-     npm install react react-dom react-scripts ethers
-     ```
-   - Note: We do not need to install anything from MetaMask, as it is injected into the browser through the global variable `window.ethereum`.
 
 ## Running the Project
 - **`blockchain`**: 
